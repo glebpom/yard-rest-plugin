@@ -10,7 +10,6 @@ begin
     gem.email = "aisha.fenton@visfleet.com"
     gem.homepage = "http://github.com/visfleet/yard-rest-plugin"
     gem.authors = ["Aisha Fenton"]
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
@@ -20,7 +19,7 @@ end
 namespace :ex do
   desc "Generate example docs"
   task :generate do
-    `yardoc 'example/*.rb' -t rest --backtrace -p ./templates -e ./lib/yard_rest_plugin.rb -r example/README.markdown --title 'Sample API'`
+    `yardoc 'example/*.rb' -t rest --backtrace -p ./templates -e ./lib/yard-rest-plugin.rb -r example/README.markdown --title 'Sample API'`
   end
 
   desc "Clean example docs"
@@ -28,4 +27,5 @@ namespace :ex do
     `rm -R doc`
     `rm -R .yardoc`
   end
+  
 end

@@ -2,7 +2,7 @@
 # XXX Is there a better way to deal with this?
 $LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__)))
 
-require "yard_rest_plugin/base_helper"
+require "yard-rest-plugin/base_helper"
 
 YARD::Templates::Engine.register_template_path File.dirname(__FILE__) + '/../templates'
 
