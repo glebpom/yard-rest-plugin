@@ -8,6 +8,8 @@ Install
 -------
     sudo gem install yard-rest-plugin
 
+It also requires the Jeweler gem if you plan to use the rake build tasks.
+
 Generating Docs
 ---------------
 When using yardoc you ask it to use the "rest" template (the -t option). For example: 
