@@ -10,6 +10,7 @@ begin
     gem.email = "aisha.fenton@visfleet.com"
     gem.homepage = "http://github.com/visfleet/yard-rest-plugin"
     gem.authors = ["Aisha Fenton"]
+    gem.add_dependency("yard", '>= 0.5') 
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

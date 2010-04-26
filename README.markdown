@@ -6,7 +6,7 @@ A plugin for [Yardoc](http://yardoc.org/) that generates documentation for RESTf
 
 Install
 -------
-    sudo gem install yardoc
+    sudo gem install yard-rest-plugin
 
 Generating Docs
 ---------------
