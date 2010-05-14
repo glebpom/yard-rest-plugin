@@ -9,6 +9,6 @@ YARD::Templates::Engine.register_template_path File.dirname(__FILE__) + '/../tem
 # Define custom tags
 YARD::Tags::Library.define_tag("URL for Service", :url)
 YARD::Tags::Library.define_tag("Arguments", :argument, :with_types_and_name)
-YARD::Tags::Library.define_tag("Example Respones", :example_response)
-YARD::Tags::Library.define_tag("Response Field", :response_field, :with_name)
+YARD::Tags::Library.define_tag("Example Responses", :example_response)
+YARD::Tags::Library.define_tag("Response Fields", :response_field, :with_name)
 
