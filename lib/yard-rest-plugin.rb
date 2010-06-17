@@ -11,6 +11,6 @@ YARD::Tags::Library.define_tag("URL for Service", :url)
 YARD::Tags::Library.define_tag("Arguments", :argument, :with_types_and_name)
 YARD::Tags::Library.define_tag("Example Responses", :example_response)
 YARD::Tags::Library.define_tag("Response Fields", :response_field, :with_name)
-YARD::Tags::Library.define_tag("Headers", :header, :with_types_and_name)
-YARD::Tags::Library.define_tag("Response Codes", :response_code)
+YARD::Tags::Library.define_tag("Headers", :header, :with_name)
+YARD::Tags::Library.define_tag("Response Codes", :response_code, :with_name)
 

@@ -11,7 +11,7 @@ def argument
 end
 
 def header
-  generic_tag :argument, :no_types => false
+  generic_tag :header, :no_types => false
 end
 
 def response_code
