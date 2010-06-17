@@ -1,5 +1,5 @@
 def init
-  sections :index, [:argument, :example_response, :response_field]
+  sections :index, [:argument, :header, :response_code, :example_response, :response_field]
 end
 
 def response_field
@@ -8,6 +8,14 @@ end
 
 def argument
   generic_tag :argument, :no_types => false
+end
+
+def header
+  generic_tag :argument, :no_types => false
+end
+
+def response_code
+  generic_tag :response_code
 end
 
 def generic_tag(name, opts = {})
